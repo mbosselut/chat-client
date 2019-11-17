@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import superagent from 'superagent';
-import { url } from './constants';
+import { url } from '../constants';
 
 export default class Room extends Component {
 	state = {

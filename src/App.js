@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import { Route } from 'react-router-dom';
-import Rooms from './Rooms';
-import Room from './Room';
+import Rooms from './components/Rooms';
+import Room from './components/Room';
 
 export default class App extends Component {
 	render() {

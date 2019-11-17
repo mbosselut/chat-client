@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import superagent from 'superagent';
 import { Link } from 'react-router-dom';
-import { url } from './constants';
+import { url } from '../constants';
+import LoginFormContainer from './LoginFormContainer';
 
 export default class Rooms extends Component {
 	state = {
@@ -56,6 +57,7 @@ export default class Rooms extends Component {
 		));
 		return (
 			<div>
+				<LoginFormContainer />
 				<form onSubmit={this.onSubmit}>
 					<input
 						type='text'
